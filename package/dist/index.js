@@ -1,0 +1,1 @@
+var t=Object.defineProperty;var u=e=>t(e,"__esModule",{value:!0});var c=(e,o)=>()=>(o||(o={exports:{}},e(o.exports,o)),o.exports),f=(e,o)=>{for(var l in o)t(e,l,{get:o[l],enumerable:!0})};var r=c(d=>{u(d);f(d,{default:()=>n});function n(){return 99999}});console.log("Hello World!");Promise.resolve().then(()=>r()).then(e=>{console.log(e.default())});
